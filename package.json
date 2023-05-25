@@ -1,0 +1,14 @@
+{
+  "name": "mophat-portfolio",
+  "version": "1.0.0",
+  "description": "My responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Mophat",
+  "license": "MIT",
+  "dependencies": {
+    "node-scss": "^7.0.3"
+  }
+}

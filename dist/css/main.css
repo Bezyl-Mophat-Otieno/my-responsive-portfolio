@@ -198,7 +198,8 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a; }
+      border-color: #eece1a;
+      transition: all 0.5s ease-in-out; }
 
 .boxes {
   display: flex;
@@ -218,12 +219,12 @@ main {
       .boxes div:hover span {
         color: black; }
 
-.btn {
+.btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
     color: black; }
 

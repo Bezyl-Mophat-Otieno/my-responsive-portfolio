@@ -171,10 +171,10 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 10px;
     border: #eece1a 3px solid;
-    width: 300px;
-    height: 300px; }
+    width: 200px;
+    height: 200px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
